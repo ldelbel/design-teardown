@@ -64,7 +64,60 @@ h1 {
 .grid-item {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 65vh;
+  padding: 10%;
+  justify-content: space-between;
 }
+
+.author-div {
+  width: 30%;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.profile {
+  width: 50px;
+  height: 50px;
+  transform: rotate(45grad);
+}
+
+.name {
+  font-size: 20px;
+}
+
+.bottom-profile {
+  width: 40%;
+  height: 10%;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.article-div {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  height: 100vh;
+  margin-top: 20px;
+}
+
+.article-item {
+  padding: 35px 30px;
+}
+
+.article-item h3 {
+  font-size: 24px;
+}
+
+.article-item span {
+  padding: 30px 0;
+  display: block;
+}
+
+.article-item p {
+  font-size: 20px;
+}
+
