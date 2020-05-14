@@ -100,7 +100,7 @@ h2 {
 .article-div {
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  height: 100vh;
+  height: 90vh;
   margin-top: 20px;
 }
 
@@ -121,3 +121,49 @@ h2 {
   font-size: 20px;
 }
 
+/* advertising */
+
+.ads-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ads {
+  /* width: 30%; */
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  height: 100vh;
+  padding: 50px 120px;
+}
+
+.img,
+.h3,
+.feature span {
+  margin-bottom: 50px;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+.feature span {
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.feature-button {
+  padding: 20px 50px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
