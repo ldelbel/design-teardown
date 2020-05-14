@@ -9,13 +9,62 @@
 body {
   height: 100%;
 }
-
+/* navigation */
 nav {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  height: 13vh;
 }
 
-nav div {
-  width: 8%;
-  height: 10%;
+.logo {
+  width: 170px;
+  height: 50px;
+}
+
+.item {
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.item-more {
+  width: 110px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.search-bar {
+  width: 300px;
+  height: 50px;
+}
+
+/* first row */
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  width: 450px;
+}
+
+/* grid content*/
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
 }
