@@ -108,19 +108,21 @@ h2 {
 .article-item {
   padding: 35px 10px;
   width: 28vw;
+  padding-bottom: 30%;
 }
 
 .article-item h3 {
-  font-size: 24px;
+  font-size: 1.8vw;
 }
 
 .article-item span {
-  padding: 30px 0;
-
+  display: block;
+  font-size: 1vw;
+  margin: 20px 0;
 }
 
 .article-item p {
-  font-size: 20px;
+  font-size: 1.4vw;
 }
 
 /* advertising */
@@ -203,4 +205,72 @@ h3 {
 .article-feature-div {
   display: flex;
   justify-content: space-around;
+}
+
+/* promo */
+.promo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.promo span {
+  margin-top: 5%;
+  font-size: 1.2vw;
+  text-align: center;
+}
+
+.promo h2 {
+  margin-top: 1.5%;
+  font-size: 3.3vw;
+  width: 50vw;
+  text-align: center;
+}
+
+.promo p {
+  margin-top: 2%;
+  font-size: 1.7vw;
+  width: 50vw;
+  text-align: center;
+  line-height: 3vw;
+}
+
+.promo-button {
+  margin-top: 2%;
+  margin-bottom: 4%;
+  padding: 1.3% 3%;
+}
+
+.promo-img {
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-bottom: 4%;
+}
+
+/* after promo */
+.after-promo {
+  padding: 5% 0 9% 4%;
+}
+
+.profile-photo {
+  margin-right: 4%;
+  width: 17vw;
+  height: 17vw;
+  float: left;
+  border: 1px solid black;
+  border-radius: 10%;
+  transform: rotate(-12deg);
+}
+
+.after-promo h3 {
+  font-size: 1.5vw;
+  margin-bottom: 2%;
+}
+
+.after-promo p {
+  font-size: 1.4vw;
+  line-height: 2vw;
+  width: 85vw;
 }
