@@ -45,7 +45,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 220px;
+  padding: 4% 0 1%;
 }
 
 h1 {
@@ -64,7 +64,7 @@ h1 {
 .grid-item {
   display: flex;
   flex-direction: column;
-  height: 65vh;
+  height: 40vw;
   padding: 10%;
   justify-content: space-between;
 }
@@ -81,7 +81,8 @@ h1 {
 .profile {
   width: 50px;
   height: 50px;
-  transform: rotate(45grad);
+  transform: rotate(15grad);
+  border: 1px solid #111;
 }
 
 .name {
@@ -135,10 +136,11 @@ h2 {
 .feature {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   width: 60%;
-  height: 100vh;
-  padding: 50px 80px;
+  height: 45vw;
+  padding: 5% 6%;
   border: 1px solid #111;
   border-radius: 3%;
 }
@@ -146,40 +148,41 @@ h2 {
 .img,
 .h3,
 .feature span {
-  margin-bottom: 20px;
+  margin-bottom: 1%;
 }
 
 .img {
-  width: 200px;
-  height: 200px;
+  width: 15vw;
+  height: 15vw;
   border: 1px solid #111;
   border-radius: 50%;
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 2.5vw;
 }
 
 .feature span {
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 1.3vw;
+  line-height: 1.8vw;
   text-align: center;
 }
 
 .feature-button {
-  padding: 20px 50px;
-  border: 1px solid black;
-  border-radius: 20px;
+  padding: 3% 5%;
+  border: 1px solid #000000;
+  border-radius: 0.9vw;
+  font-size: 1.3vw;
 }
 
 .ads {
   width: 30%;
-  height: 15em;
+  height: 20vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 25px;
+  padding: 2.5%;
   border: 1px solid #111;
   border-radius: 3%;
 }
@@ -273,4 +276,47 @@ h3 {
   font-size: 1.4vw;
   line-height: 2vw;
   width: 85vw;
+}
+
+.bottom-grid {
+  display: grid;
+  grid-template:  repeat(3,1fr) / 1fr 1fr;
+  margin-bottom: 8%;
+}
+
+.bottom-grid-item {
+  display: flex;
+  padding: 10%;
+  justify-content: space-between;
+}
+
+.bottom-author-div {
+  margin-right: 4%;
+}
+
+.bottom-title-div {
+  margin: 4% 0 6%;
+}
+
+.systems-div {
+  padding: 4% 10%;
+}
+
+.systems h2 {
+  font-size: 3.2vw;
+}
+
+.systems p {
+  width: 55vw;
+  line-height: 2vw;
+}
+
+.systems-button {
+  padding: 3% 5%;
+  border: 1px solid #000000;
+  border-radius: 0.9vw;
+  font-size: 1.3vw;
+  width: 25vw;
+  text-align: center;
+  margin: 5% 0;
 }
