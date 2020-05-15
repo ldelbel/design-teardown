@@ -7,7 +7,7 @@
 }
 
 body {
-  height: 100%;
+  padding-bottom: 40px;
 }
 /* navigation */
 nav {
@@ -126,10 +126,7 @@ h2 {
 .ads-div {
   display: flex;
   justify-content: space-around;
-}
-
-.ads {
-  /* width: 30%; */
+  margin-top: 10%;
 }
 
 .feature {
@@ -138,18 +135,22 @@ h2 {
   align-items: center;
   width: 60%;
   height: 100vh;
-  padding: 50px 120px;
+  padding: 50px 80px;
+  border: 1px solid #111;
+  border-radius: 3%;
 }
 
 .img,
 .h3,
 .feature span {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .img {
   width: 200px;
   height: 200px;
+  border: 1px solid #111;
+  border-radius: 50%;
 }
 
 h3 {
@@ -166,4 +167,34 @@ h3 {
   padding: 20px 50px;
   border: 1px solid black;
   border-radius: 20px;
+}
+
+.ads {
+  width: 30%;
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  border: 1px solid #111;
+  border-radius: 3%;
+}
+
+.ads-title {
+  width: 50%;
+  height: 25%;
+  border: 1px solid #111;
+}
+
+.ads-content {
+  width: 70%;
+  height: 40%;
+  border: 1px solid #111;
+}
+
+.ads-button {
+  width: 25%;
+  height: 15%;
+  border: 1px solid #111;
 }
