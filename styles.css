@@ -298,8 +298,9 @@ h3 {
   margin: 4% 0 6%;
 }
 
+/* "system" row */
 .systems-div {
-  padding: 4% 10%;
+  display: flex;
 }
 
 .systems h2 {
@@ -319,4 +320,33 @@ h3 {
   width: 25vw;
   text-align: center;
   margin: 5% 0;
+}
+
+.book {
+  position: relative;
+  bottom: 5vw;
+  margin-left: 13%;
+  width: 17vw;
+  height: 25vw;
+  transform: rotate(-10deg);
+}
+
+/* guides */
+.guides {
+  display: flex;
+  padding-left: 4%;
+}
+
+.guides-box {
+  padding: 4% 3% 5% 0;
+}
+
+.guides-box h3{
+  font-size: 1.8vw;
+}
+
+.guides-box ul {
+  font-size: 1.4vw;
+  line-height: 2.8vw;
+  padding: 5% 0 0 10%;
 }
