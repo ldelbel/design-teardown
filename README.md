@@ -3,7 +3,7 @@
 > In this project, my partner and I explored the UX and UI concepts, focusing on the correct use of contrasts to effectively guide the users throught the importance hierarchy of the content.
 > We gained a deeper understanding of how to position and properly layout elements on the page.
 
-![screenshot](./images/screenshot.jpg)
+![screenshot](./screenshot.png)
 
 This project covers the following HTML and CSS3 concepts
 
