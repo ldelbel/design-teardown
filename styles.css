@@ -50,7 +50,7 @@ nav {
 h1 {
   font-size: 3vw;
   text-align: center;
-  width: 31vw;
+  width: 45vw;
 }
 
 /* grid content*/
@@ -70,7 +70,7 @@ h1 {
 }
 
 .author-div {
-  width: 30%;
+  width: 35%;
   height: 30%;
   display: flex;
   justify-content: space-between;
@@ -82,7 +82,7 @@ h1 {
   width: 5vw;
   height: 5vw;
   transform: rotate(-15grad);
-  border: 1px solid #111;
+  border: 1px solid #888;
 }
 
 .name {
@@ -142,7 +142,7 @@ h2 {
   width: 60%;
   height: 45vw;
   padding: 5% 6%;
-  border: 1px solid #111;
+  border: 1px solid #888;
   border-radius: 3%;
 }
 
@@ -155,12 +155,12 @@ h2 {
 .img {
   width: 15vw;
   height: 15vw;
-  border: 1px solid #111;
+  border: 1px solid #888;
   border-radius: 50%;
 }
 
 .feature h3 {
-  font-size: 3.3vw
+  font-size: 3vw
 }
 
 .feature span {
@@ -184,26 +184,26 @@ h2 {
   justify-content: space-between;
   align-items: center;
   padding: 2.5%;
-  border: 1px solid #111;
+  border: 1px solid #888;
   border-radius: 3%;
 }
 
 .ads-title {
   width: 50%;
   height: 25%;
-  border: 1px solid #111;
+  border: 1px solid #888;
 }
 
 .ads-content {
   width: 70%;
   height: 40%;
-  border: 1px solid #111;
+  border: 1px solid #888;
 }
 
 .ads-button {
   width: 25%;
   height: 15%;
-  border: 1px solid #111;
+  border: 1px solid #888;
 }
 
 .article-feature-div {
@@ -273,6 +273,7 @@ h2 {
 .after-promo h3 {
   font-size: 1.5vw;
   margin-bottom: 2%;
+  display: inline;
 }
 
 .after-promo p {
@@ -319,14 +320,15 @@ h2 {
 .systems p {
   width: 55vw;
   line-height: 2vw;
+  font-size: 1.6vw;
 }
 
 .systems-button {
   padding: 3% 5%;
   border: 1px solid #000000;
   border-radius: 0.9vw;
-  font-size: 1.3vw;
-  width: 25vw;
+  font-size: 1.8vw;
+  width: 32vw;
   text-align: center;
   margin: 5% 0;
 }
@@ -362,12 +364,13 @@ h2 {
 
 .guides-feature-div {
   display: flex;
+  padding: 0 2%;
 }
 
 .img-guide-feature {
   width: 30vw;
   height: 30vw;
-  border: 1px solid #111;
+  border: 1px solid #888;
   border-radius: 50%;
   margin: 2vw;
 }
@@ -379,6 +382,10 @@ footer {
 
 .guide {
   height: 100%;
+}
+
+.guide h3 {
+  margin-bottom: 2vw;
 }
 
 .list ul {
@@ -396,12 +403,13 @@ footer {
 pre {
   text-align: center;
   margin-bottom: 3.5vw;
+  font-size: 0.8vw;
 }
 
 .footer-img {
   width: 12vw;
   height: 12vw;
-  border: 1px solid #111;
+  border: 1px solid #888;
   border-radius: 50%;
 
 }
@@ -424,7 +432,11 @@ pre {
 .bottom-links {
   height: 5vw;
   width: 40vw;
-  border: 1px solid #111;
+  border: 1px solid #888;
+}
+
+.bottom-links pre {
+  font-weight: 700;
 }
 
 .prio1 {
