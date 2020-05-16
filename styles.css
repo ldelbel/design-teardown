@@ -5,12 +5,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /* navigation */
+
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 13vh;
+  height: 17vh;
 }
 
 .logo {
@@ -412,4 +414,24 @@ pre {
   height: 5vw;
   width: 40vw;
   border: 1px solid #111;
+}
+
+.prio1 {
+  background-color: rgba(75,75,75);
+}
+
+.prio2 {
+  background-color: rgba(120,120,120);
+}
+
+.prio3 {
+  background-color: rgba(165,165,165);
+}
+
+.prio4 {
+  background-color: rgba(210,210,210);
+}
+
+.prio5 {
+  background-color: white;
 }
