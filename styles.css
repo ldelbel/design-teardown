@@ -5,10 +5,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
-  padding-bottom: 40px;
-}
 /* navigation */
 nav {
   display: flex;
@@ -349,4 +345,71 @@ h3 {
   font-size: 1.4vw;
   line-height: 2.8vw;
   padding: 5% 0 0 10%;
+}
+
+.guides-feature-div {
+  display: flex;
+}
+
+.img-guide-feature {
+  width: 30vw;
+  height: 30vw;
+  border: 1px solid #111;
+  border-radius: 50%;
+  margin: 2vw;
+}
+
+
+footer {
+  padding: 5%;
+}
+
+.guide {
+  height: 100%;
+}
+
+.list ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  line-height: 3.5vw;
+}
+
+.list li {
+  margin: 0 1vw;
+  font-size: 1.35vw;
+}
+
+pre {
+  text-align: center;
+  margin-bottom: 3.5vw;
+}
+
+.footer-img {
+  width: 12vw;
+  height: 12vw;
+  border: 1px solid #111;
+  border-radius: 50%;
+
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-top: 5vw;
+  padding: 0 3vw;
+}
+
+.footer-bottom-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottom-links {
+  height: 5vw;
+  width: 40vw;
+  border: 1px solid #111;
 }
