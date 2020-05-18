@@ -18,7 +18,7 @@ This project covers the following HTML and CSS3 concepts
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/ldelbel/design-teardown/18ec22f2f7404284b707d9028ca52627e817fb30/index.html)
+[Live Demo Link](https://ldelbel.github.io/design-teardown/)
 
 ## Getting Started
 
