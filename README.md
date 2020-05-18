@@ -3,7 +3,7 @@
 > In this project, my partner and I explored the UX and UI concepts, focusing on the correct use of contrasts to effectively guide the users throught the importance hierarchy of the content.
 > We gained a deeper understanding of how to position and properly layout elements on the page.
 
-![screenshot](./images/screenshot.jpg)
+![screenshot](./screenshot.png)
 
 This project covers the following HTML and CSS3 concepts
 
@@ -18,7 +18,7 @@ This project covers the following HTML and CSS3 concepts
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/ldelbel/design-teardown/18ec22f2f7404284b707d9028ca52627e817fb30/index.html)
 
 ## Getting Started
 
@@ -50,7 +50,7 @@ $ git clone https://github.com/ldelbel/design-teardown/
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/acushlakoncept/newyork_times_clone/issues).
+Feel free to check the [issues page](https://github.com/ldelbel/design-teardown/issues).
 
 ## Show your support
 
